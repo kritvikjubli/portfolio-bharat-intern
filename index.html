@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <nav class="nav"> 
+    <div class="container flex items-center justify-between h-16 md:h-20">
+            <h1 class="relative z-30 font-semibold text-2xl hover:rotate-[720deg] duration-1000 hover:text-4xl">
+                Kritvik Jubli
+            </h1>
+        <div class="flex items-center flex-row-reverse md:flex-row gap-3 md:gap-12">
+                <ul id="menu" class="nav-menu translate-y-[-200%] md:translate-y-0">
+                    <a class="nav-link" href="#home">Home</a>
+                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                </ul>
+                <button id="toggle-menu" class="relative z-30 p-2 md:hidden dark:invert">
+                        <img src="./images/menu.svg" alt="menu">
+                </button>
+
+                <button id="theme" class="relative z-30 dark:invert">
+                    <img src="./images/dark.svg" class="md:opacity-70 w-7 md:mt-[-0.5rem]" alt="dark"/>
+                </button>
+        </div>
+    </div>
+    </nav>
+
+    <main class="container">
+        <section id="home" class="home-section">
+            <div class="order-2 md:order-1 mt-10">
+                <h2 class="text-5xl md:text-7xl font-bold">
+                    Hi,
+                </h2>
+                <h2 class="text-5xl md:text-7xl font-bold mt-2">
+                    I am <span class="text-primary">Kritvik Jubli</span>
+                </h2>
+                <h3 class="text-2xl md:text-3xl font-bold opacity-70 mt-5 mb-10">
+                    Engineering Student
+                </h3>
+                <a href="#portfolio" class="btn-primary">
+                    See my work
+                </a>
+            </div>
+            <div class="container-hero-img">
+                <img src="./images/Me.jpg" class="w-full h-full object-cover opacity-90 object-center" alt="profile">
+            </div>
+        </section>
+
+
+        <section id="about" class="py-32">
+            <div class="flex flex-col md:flex-row items-center justify-center gap-10 md:gap-20">
+                <div class="rounded-full w-48 md:w-64 h-48 md:h-64 overflow-hidden bg-primary">
+                    <img src="./images/Me.jpg" class="w-full h-full object-cover opacity-80" alt="img">
+                </div>
+                <div class="w-full md:w-1/2 text-base md:text-lg text-center md:text-left">
+                    <h2>Hi, I'm Kritvik Jubli</h2>
+                        
+                    <p class="mb-3 opacity-70">
+                                    Welcome to my portfolio! I am a highly motivated and versatile individual with a passion for personal and professional growth. 
+                                    <span class='hidden md:-block'>
+                                    Throughout my journey, I have acquired a diverse skill set and developed a strong foundation in various fields.
+                                     Education has played a pivotal role in shaping my knowledge and expertise.
+                                     </span>
+                         I am pursuing degree in<b> BTech in Computer Science </b> from <b>Graphic Era Hill University</b>. 
+                        My academic journey has equipped me with a solid understanding of <b>React , Tailwind , JS , HTML, CSS , C , C++ , JAVA </b>, enabling me to approach challenges.
+                        
+                        In addition to my academic achievements, I have actively pursued opportunities to expand my practical skills.
+                        These experiences have honed my abilities <b> Web developer, Coder.</b>
+                        <span class='hidden md:-block'>
+                        Throughout my professional journey, I have demonstrated strong leadership and communication skills.
+                         I have successfully managed teams and projects, collaborating with diverse stakeholders to achieve desired outcomes.
+                         My ability to adapt quickly to changing environments and effectively problem-solve has been instrumental in delivering exceptional results.              
+                                      </span>
+                  </p> 
+                                     <br />
+                  <p class='opacity-70'>
+                         <span class='hidden md:-block'>
+                                    Creativity and innovation are at the core of my approach. I am passionate about creative pursuits such as <b> writing, design, photography, etc.</b>
+                        In this portfolio, you will find a collection of my best work, showcasing my skills, accomplishments,
+                         and growth over time. Each project represents a unique challenge I have taken on, demonstrating my ability to adapt, learn, and excel in various settings.
+                                      </span>
+                        Thank you for taking the time to explore my portfolio. I look forward to the opportunity to connect, collaborate, and make a positive contribution in the future.
+                                   
+                 </p>
+             </div>
+       </div>
+
+       <!-- skill -->
+
+       <div class="mt-32 text-center">
+        <h2 class="text-primary text-3xl md:text-4xl font-bold mb-14">
+        My Skills
+        </h2>
+        <div class="flex flex-wrap items-center justify-center gap-24 mdd:gap-12">
+            <div class="skill" >
+                <img src="./images/Experience/html.png" class="w-16" alt="html">
+            </div>
+
+            <div class="skill">
+                <img src="./images/Experience/css.png" class="w-16" alt="html">
+            </div>
+
+            <div class="skill" >
+                <img src="./images/Experience/js.png" class="w-16" alt="html">
+            </div>
+
+            <div class="skill" >
+                <img src="./images/Experience/reactimg.png" class="w-16" alt="html">
+            </div>
+
+            <div class="skill" >
+                <img src="./images/Experience/tailwind.png" class="w-16" alt="html">
+            </div>
+
+            <div class="skill" >
+                <img src="./images/Experience/c.png" class="w-16" alt="html">
+            </div>
+
+            <div class="skill" >
+                <img src="./images/Experience/cpp.jpeg" class="w-16" alt="html">
+            </div>
+
+            <div class="skill" >
+                <img src="./images/Experience/java.png" class="w-16" alt="html">
+            </div>
+        </div>
+       </div>
+        </section>
+
+        <div class="flex item-flex justify-between gap-3 w-full">
+            <div class="bg-primary/60 h-3 w-4 "></div>
+            <div class="bg-primary/60 h-3 w-4 "></div>
+            <div class="bg-primary/60 h-3 w-4 "></div>
+            <div class="bg-primary/60 h-3 w-4 "></div>
+            <div class="bg-primary/60 h-3 w-4 "></div>
+            <div class="bg-primary/60 h-3 w-4 "></div>
+            <div class="bg-primary/60 h-3 w-4 "></div>
+            <div class="bg-primary/60 h-3 w-4 "></div>
+            <div class="bg-gradient-to-r from-primary/60 to to-primary/0 flex-grow h-3"></div>
+        </div>
+        <section class="pt-32" id="portfolio">
+            <h2 class="portfolio-hedding">
+                My Portfolio
+            </h2>
+            <ul class="w-full md:w-5/6 space-y-10 py-5">
+                <li class="portfolio-card">
+                    <div class="w-full md:w-1/3 h-60">
+                        <img 
+                        class="h-full w-full "
+                        src="./images/portfolio/portfolio.jpg" alt="#">
+                    </div>
+                    <div class="w-full md:w-2/3 p-5">
+                        <h2 class="text-3xl font-bold mb-3">
+                            Portfolio 
+                        </h2>
+                        <p>
+                            My personal portfolio, crafted with the latest web technologies, is a showcase of my skills, achievements, and projects brought to life through the synergy of React and Tailwind CSS.
+                            As you explore my portfolio, you'll find sections dedicated to showcasing my work, outlining my skills, and detailing my professional journey. Each project is presented with descriptions, images, and links.
+                        </p>
+                        <div class="mt-8 font-semibold text-white flex items-center gap-2">
+                            <a href="https://github.com/kritvikjubli/Portfolio.git" target="_blank" class="portfolio-link bg-primary">
+                                <img src="./images/github.svg" class="w-5 h-5" alt="">
+                                Github
+                            </a>
+                            <a href="https://kritvikjubli-portfolio.netlify.app" target="_blank" class="portfolio-link bg-blue-500">
+                                <img src="./images/website.svg" class="w-5 h-5" alt="">
+                                Website
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="portfolio-card">
+                    <div class="w-full md:w-1/3 h-60">
+                        <img 
+                        class="h-full w-full "
+                        src="./images/portfolio/facebook.png" alt="#">
+                    </div>
+                    <div class="w-full md:w-2/3 p-5">
+                        <h2 class="text-3xl font-bold mb-3">
+                            Facebook login page
+                        </h2>
+                        <p>
+                        This is facebook login page made with the help of HTML , Tailwind CSS . 
+                        <br>This was one of my starting projects while learning Tailwind CSS.
+                        </p>
+                        <div class="mt-8 font-semibold text-white flex items-center gap-2">
+                            <a href="https://github.com/kritvikjubli/Facebook_clone_tailwind.git" target="_blank" class="portfolio-link bg-primary">
+                                <img src="./images/github.svg" class="w-5 h-5" alt="">
+                                Github
+                            </a>
+                            <a href="" class="portfolio-link bg-blue-500">
+                                <img src="./images/website.svg" class="w-5 h-5" alt="">
+                                Website
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="portfolio-card">
+                    <div class="w-full md:w-1/3 h-60">
+                        <img 
+                        class="h-full w-full"
+                        src="./images/portfolio/microsoft.jpeg" alt="#">
+                    </div>
+                    <div class="w-full md:w-2/3 p-5">
+                        <h2 class="text-3xl font-bold mb-3">
+                            Microsoft landing page clone
+                        </h2>
+                        <p>
+                            This is Microsoft landing page page made with the help of HTML , Tailwind CSS . 
+                            <br>This was one of my starting projects while learning Tailwind CSS.     
+                        </p>
+                        <div class="mt-8 font-semibold text-white flex items-center gap-2">
+                            <a href="https://github.com/kritvikjubli/Microsoft_clone.git" target="_blank" class="portfolio-link bg-primary">
+                                <img src="./images/github.svg" class="w-5 h-5" alt="">
+                                Github
+                            </a>
+                            <a href="#" class="portfolio-link bg-blue-500">
+                                <img src="./images/website.svg" class="w-5 h-5" alt="">
+                                Website
+                            </a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="portfolio-card">
+                    <div class="w-full md:w-1/3 h-60">
+                        <img 
+                        class="h-full w-full "
+                        src="./images/portfolio/temp.png" alt="#">
+                    </div>
+                    <div class="w-full md:w-2/3 p-5">
+                        <h2 class="text-3xl font-bold mb-3">
+                                Temperature calculator 
+                        </h2>
+                        <p>
+                            Temperature calculator this was one of my bharat intern project which was made using HTML , JS , Tailwind CSS.
+                       
+                           </p>
+                        <div class="mt-8 font-semibold text-white flex items-center gap-2">
+                            <a href="https://github.com/kritvikjubli/temp_calculator.git" target="_blank" class="portfolio-link bg-primary">
+                                <img src="./images/github.svg" class="w-5 h-5" alt="">
+                                Github
+                            </a>
+                            <a href="#" class="portfolio-link bg-blue-500">
+                                <img src="./images/website.svg" class="w-5 h-5" alt="">
+                                Website
+                            </a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </section>
+    </main>
+    <footer class="w-full text-center mt-40 bg-white dark:bg-black ">
+        <section id="contact" class="flex flex-row gap-12 justify-center items-center py-20">
+            <hr class="text-4xl md:text-5xl font-bold text-primary gap-5 md:gap-10">
+            <a href="https://www.facebook.com/profile.php?id=100010322679114" target="_blank" class="contact-link bg-blue-500">
+                <img src="./images/LogosFacebook.svg"
+                 alt="">
+            </a>
+            <a href="https://www.instagram.com/kritvik_jubli/" target="_blank" class="contact-link bg-pink-500">
+                <img src="./images/Instagram.svg"
+                 alt="">
+            </a>
+            <a href="https://t.me/kritvikjubli" target="_blank" class="contact-link bg-blue-500">
+                <img src="./images/LogosTelegram.svg"
+                 alt="">
+            </a>
+            <a href="mailto:kritvikjulbli.gmail.com" class="contact-link bg-slate-400">
+                <img src="./images/LogosGoogleGmail.svg"
+                 alt="">
+            </a>
+        </section>
+        <h2 class="pb-10">
+            &copy; Copyright 2023 - Kritvik Jubli
+        </h2>
+    </footer>
+
+
+
+
+    <script src="./app.js"> </script>
+</body>
+</html>
