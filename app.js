@@ -3,12 +3,14 @@ const togglemenu = document.querySelector('#toggle-menu')
 const toggleicon=togglemenu.querySelector('img')
 const menu=document.querySelector('#menu')
 togglemenu.addEventListener('click',()=>{
+    console.log('toggle menu clicked')
 menu.classList.toggle('translate-y-[-200%]')
 changeicon();
 });
 
 //icon change
 const changeicon=()=>{
+    console.log('change icon clicked')
 const translate=menu.classList.contains('translate-y-[-200%]');
 const icon=translate ? 'menu' : "close"
 toggleicon.src=`./images/${icon}.svg`
@@ -18,6 +20,7 @@ toggleicon.src=`./images/${icon}.svg`
 const navlink=document.querySelectorAll('.nav-link')
 navlink.forEach(navlink=>{
     navlink.addEventListener('click',()=>{
+        console.log('navlink clicked')
         menu.classList.add('translate-y-[-200%]')
     })
     changeicon();
