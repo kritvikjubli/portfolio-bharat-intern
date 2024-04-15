@@ -10,7 +10,6 @@ changeicon();
 
 //icon change
 const changeicon=()=>{
-    console.log('change icon clicked')
 const translate=menu.classList.contains('translate-y-[-200%]');
 const icon=translate ? 'menu' : "close"
 toggleicon.src=`./images/${icon}.svg`
